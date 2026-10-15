@@ -7,29 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		586F42D8896A507D6474CB11 /* CueResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267447694F44361CD80E5AF /* CueResult.swift */; };
-		6CCF4F28B2E6790A6F729927 /* TriggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB475F8D2EF8A5F5E114DE /* TriggerManager.swift */; };
-		6D4E4DF79F0F995E6DA05461 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04B419605D5F65ADDFA96 /* WindowManager.swift */; };
-		93224C388A04232306B17572 /* RadialFanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C49FB87DABB94955205A2 /* RadialFanView.swift */; };
-		9C7447FBACFC40B91D1008D6 /* AppRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333645C580FC6051A2EF2381 /* AppRegistry.swift */; };
-		A5874C899BEA02622B6A7F74 /* AppSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182411884C2DD1B98DC6AB2 /* AppSearchEngine.swift */; };
-		B5784185B80FFD05DE9B2A38 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29574D6BACEA3E05B58B0D22 /* CalculatorEngine.swift */; };
-		DDCA47B8ABE6E4B3E942E8EB /* SystemCommandProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3324D5D8EEA6D99456FA47B /* SystemCommandProvider.swift */; };
-		E5DB4B3CA61652B204BC9663 /* FileSearchProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F84F8A9CBA0438A90BEE57 /* FileSearchProvider.swift */; };
-		F60B46F593698DE462207FD5 /* AppResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C64D13B9B76AE1D3B0108A /* AppResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EE04B419605D5F65ADDFA96 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WindowManager.swift; path = Cue/WindowManager.swift; sourceTree = SOURCE_ROOT; };
-		1182411884C2DD1B98DC6AB2 /* AppSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppSearchEngine.swift; path = Cue/AppSearchEngine.swift; sourceTree = SOURCE_ROOT; };
-		29574D6BACEA3E05B58B0D22 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorEngine.swift; path = Cue/CalculatorEngine.swift; sourceTree = SOURCE_ROOT; };
-		333645C580FC6051A2EF2381 /* AppRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppRegistry.swift; path = Cue/AppRegistry.swift; sourceTree = SOURCE_ROOT; };
-		4C4C49FB87DABB94955205A2 /* RadialFanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadialFanView.swift; path = Cue/RadialFanView.swift; sourceTree = SOURCE_ROOT; };
-		8267447694F44361CD80E5AF /* CueResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CueResult.swift; path = Cue/CueResult.swift; sourceTree = SOURCE_ROOT; };
-		B6F84F8A9CBA0438A90BEE57 /* FileSearchProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileSearchProvider.swift; path = Cue/FileSearchProvider.swift; sourceTree = SOURCE_ROOT; };
-		C7C64D13B9B76AE1D3B0108A /* AppResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppResult.swift; path = Cue/AppResult.swift; sourceTree = SOURCE_ROOT; };
-		D3324D5D8EEA6D99456FA47B /* SystemCommandProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SystemCommandProvider.swift; path = Cue/SystemCommandProvider.swift; sourceTree = SOURCE_ROOT; };
-		DDBB475F8D2EF8A5F5E114DE /* TriggerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TriggerManager.swift; path = Cue/TriggerManager.swift; sourceTree = SOURCE_ROOT; };
 		E17CB90E2F6340D700D8387F /* Cue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -47,16 +27,6 @@
 			children = (
 				E17CB9102F6340D700D8387F /* Cue */,
 				E17CB90F2F6340D700D8387F /* Products */,
-				0EE04B419605D5F65ADDFA96 /* WindowManager.swift */,
-				C7C64D13B9B76AE1D3B0108A /* AppResult.swift */,
-				333645C580FC6051A2EF2381 /* AppRegistry.swift */,
-				1182411884C2DD1B98DC6AB2 /* AppSearchEngine.swift */,
-				DDBB475F8D2EF8A5F5E114DE /* TriggerManager.swift */,
-				4C4C49FB87DABB94955205A2 /* RadialFanView.swift */,
-				8267447694F44361CD80E5AF /* CueResult.swift */,
-				29574D6BACEA3E05B58B0D22 /* CalculatorEngine.swift */,
-				D3324D5D8EEA6D99456FA47B /* SystemCommandProvider.swift */,
-				B6F84F8A9CBA0438A90BEE57 /* FileSearchProvider.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,16 +111,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4E4DF79F0F995E6DA05461 /* WindowManager.swift in Sources */,
-				F60B46F593698DE462207FD5 /* AppResult.swift in Sources */,
-				9C7447FBACFC40B91D1008D6 /* AppRegistry.swift in Sources */,
-				A5874C899BEA02622B6A7F74 /* AppSearchEngine.swift in Sources */,
-				6CCF4F28B2E6790A6F729927 /* TriggerManager.swift in Sources */,
-				93224C388A04232306B17572 /* RadialFanView.swift in Sources */,
-				586F42D8896A507D6474CB11 /* CueResult.swift in Sources */,
-				B5784185B80FFD05DE9B2A38 /* CalculatorEngine.swift in Sources */,
-				DDCA47B8ABE6E4B3E942E8EB /* SystemCommandProvider.swift in Sources */,
-				E5DB4B3CA61652B204BC9663 /* FileSearchProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
